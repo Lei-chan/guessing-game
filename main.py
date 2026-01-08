@@ -1,17 +1,4 @@
 import random
-
-# random_number = random.randint(1, 10)
-# print('I pick a number between 1 and 10!')
-# guess = int(input('Guess a number :'))
-
-# while random_number != guess:
-#   if random_number < guess:
-#         print('Too high!')
-#   else: 
-#         print('Too low!')
-#   guess = int(input('Try again :'))
-
-# print(f'Correct 🎉 The number was {random_number}')
     
 nuts = ['hazelnut', 'almond', 'pistacho', 'walnut', 'pecan', 'cashew']
 
@@ -30,3 +17,17 @@ while random_index != guess:
 
 treat = nuts[random_index]
 print(f'You picked a correct number!! I give you {'an' if treat.startswith('a') else 'a'} {treat} as a treat 😋')
+
+
+# random_number = random.randint(1, 10)
+# print('I pick a number between 1 and 10!')
+# guess = int(input('Guess a number :'))
+
+# while random_number != guess:
+#   if random_number < guess:
+#         print('Too high!')
+#   else: 
+#         print('Too low!')
+#   guess = int(input('Try again :'))
+
+# print(f'Correct 🎉 The number was {random_number}')
